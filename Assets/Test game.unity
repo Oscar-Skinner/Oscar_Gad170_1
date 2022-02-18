@@ -328,13 +328,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 919977873}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50899d1d1c90d8a40946acb30e7745ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fc5f560fb1fd194bb30a884d0c9fb1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuel: 100
-  laps: 0
-  lapProgress: 0
-  reqLapProgress: 200
+  level: 1
+  curXP: 0
+  reqXP: 20
+  health: 10
+  defence: 6
+  speed: 5
+  attack: 2
 --- !u!65 &919977875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -405,8 +408,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919977873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.23, y: 17.01, z: -13.75}
-  m_LocalScale: {x: 4.2252, y: 4.2252, z: 4.2252}
+  m_LocalPosition: {x: -4.6, y: 0, z: -2.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
