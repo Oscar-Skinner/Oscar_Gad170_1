@@ -27,14 +27,20 @@ public class XPSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GainXP(attack);
+            GainXP(attack / 2 + 1);
         }
+        
+        /* if (Input.GetKeyDown(KeyCode.D))
+        {
+            Debug.Log("Work plz! I beg");
+            ResetXD();
+        } */
     }
     
     public void Interaction(int exp)
     {
         //interaction called by button press
-        
+
     }    
     
     public void GainXP(float amount)
@@ -81,8 +87,18 @@ public class XPSystem : MonoBehaviour
         attack += 2.0f;
         Debug.Log("Your new stats are:");
             Debug.Log("Health = " + health + ", Defence = " + defence + ", Speed = " + speed + ", Attack = " + attack + ". Good work champ!");
-}
+        Update();
+    }
     
+    public void ResetXD()
+     {
+        //health = 10.0f;
+        //defence = 6.0f;
+        //speed = 5.0f;
+        //attack = 2.0f;
+        //Debug.Log("Ha Ha! Youve Reset your stats XD! Health = " + health + ", Defence = " + defence + ", Speed = " + speed + ", Attack = " + attack + ".Good work champ!");
+        //Update();
+    } 
     
             
 }
