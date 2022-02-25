@@ -18,8 +18,6 @@ public class XPSystem : MonoBehaviour
     //XP rate variable
     public float earntXP = 2.0f;
 
-
-    public float maxLevels = 10;
         
     // Start is called before the first frame update
     void Start()
@@ -27,48 +25,68 @@ public class XPSystem : MonoBehaviour
         
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //when the space key is pressed it acts like a hit button, earning xp with every hit/every click of the space bar.
-            GainXP(earntXP / 2 + 1);
-        }
+        //three interactions to manipulate XP being earnt:
         
-        if (Input.GetKeyDown(KeyCode.S))
+        //when the Left Mouse key is pressed it acts like a light attack button, earning xp with every hit/every click of the Left Mouse.
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            //when the "S" key is pressed only speed will increase.
-            speed += 15f;
-            Debug.Log("Oh you only want speed??? OKAY! Speed = " + speed);
+            GainXP(attack);
+            Debug.Log("Light Attack!");
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        //when the Left Mouse key is pressed it acts like a heavy attack button, earning xp with every hit/every click of the Left Mouse.
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            //when the "H" key is pressed only Health will increase.
+            GainXP(attack * 2);
+            Debug.Log("Heavy Attack!");
+        }
+
+        //when the "v" key is pressed it acts like a close slash/knife button, earning xp with every hit/every click of the Left Mouse.
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            GainXP(attack * 1.2f);
+            Debug.Log("Daggered!");
+        }
+
+
+
+
+
+        //when the "1" key is pressed on the numpad only Health will increase.
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+        {
             health += 10f;
             Debug.Log("OKAY OKAY! Cheat your health then! Health = " + health);
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+
+        //when the "2" key is pressed on the numpad only defence will increase.
+        if (Input.GetKeyDown(KeyCode.Keypad2))
         {
-            //when the "D" key is pressed only defence will increase.
             defence += 3f;
-            Debug.Log("Extra defence coming right up ;) Defence = " + defence);
+            Debug.Log("Extra defence is kinda unfair... Defence = " + defence);
         }
 
-        if (Input.GetKeyDown(KeyCode.A))
+
+        //when the "3" key is pressed on the numpad only speed will increase.
+        if (Input.GetKeyDown(KeyCode.Keypad3))
         {
-            //when the "A" key is pressed only Attack will increase.
+            speed += 15f;
+            Debug.Log("Oh you only want to cheat for speed??? OKAY! Speed = " + speed);
+        }
+
+
+        //when the "4" key is pressed on the numpad only Attack will increase.
+        if (Input.GetKeyDown(KeyCode.Keypad4))
+        {
             attack += 5f;
             Debug.Log("You're now a little too overpowered! Attack = " + attack);
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            earntXP += 0.1f;
-            Debug.Log("Cheat! XP risen to " + earntXP);
-        }
 
         //doesnt work yet :(    
         if (Input.GetKeyDown(KeyCode.R))
@@ -77,19 +95,19 @@ public class XPSystem : MonoBehaviour
             ResetXD();
         }
     }
-    
-    public void Interaction(int exp)
-    {
-        //interaction called by button press
 
-    }    
+
+    //interaction called by button press
+ /* public void Interaction(int exp)
+    {
+
+    } */   
     
     public void GainXP(float amount)
     {
         //increase our current xp
         curXP += amount;
-        Debug.Log("Gained " + amount + " XP");
-        Debug.Log("Total XP is now: " + curXP);
+        Debug.Log("Gained " + amount + " XP. Total XP is now: " + curXP);
         InitialStats(curXP);
     }
 
@@ -101,8 +119,7 @@ public class XPSystem : MonoBehaviour
             Debug.Log("Epic! You reached a new level!");
                 LevelUp();
         }
-
-        
+                
     }
 
     public void LevelUp()
@@ -118,10 +135,10 @@ public class XPSystem : MonoBehaviour
         
     }
     
+    
+    //improve our stats
     public void IncreaseStats()
     {
-        //improve our stats
-
         //improve XP rate
         earntXP *= 1.5f; 
         //improves the health by 5
@@ -137,6 +154,8 @@ public class XPSystem : MonoBehaviour
         Update();
     }
     
+
+
     public void ResetXD()
      {
         //reset health

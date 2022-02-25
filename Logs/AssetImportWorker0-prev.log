@@ -15,11 +15,11 @@ C:/Users/Oscar Skinner/Documents/GitHub/Oscar_Gad170_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56242
+56391
 Successfully changed project path to: C:/Users/Oscar Skinner/Documents/GitHub/Oscar_Gad170_1
 C:/Users/Oscar Skinner/Documents/GitHub/Oscar_Gad170_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,83 +35,63 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001118 seconds.
+Registered in 0.001251 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
+- Completed reload, in  0.946 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000720 seconds.
+Registered in 0.000832 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
+- Completed reload, in  0.901 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.0 MB.
 System memory in use after: 57.1 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1561.
-Total: 2.267600 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.974400 ms  DeleteObjects: 0.113000 ms)
+Total: 1.951700 ms (FindLiveObjects: 0.124000 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.687600 ms  DeleteObjects: 0.095900 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/current.unity
+  artifactKey: Guid(75aee8a8f9ca8b64bad72f4439f6212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/current.unity using Guid(75aee8a8f9ca8b64bad72f4439f6212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb878b71792e95431ad82ade1df342d') in 0.020110 seconds
+  Import took 0.022101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.185246 seconds.
   path: Assets/XPSystem.cs
   artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458101ec42652dd4acb7041c9e465504') in 0.050851 seconds
-  Import took 0.052829 seconds .
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884a50f3cb2e5abb33080c11281d4b9d') in 0.057266 seconds
+  Import took 0.059171 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000725 seconds.
+Registered in 0.001437 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.8 MB.
-System memory in use after: 56.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 1.810900 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.563700 ms  DeleteObjects: 0.018400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.328198 seconds.
-  path: Assets/XPSystem.cs
-  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884a50f3cb2e5abb33080c11281d4b9d') in 0.005544 seconds
-  Import took 0.007515 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001299 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
+- Completed reload, in  0.849 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -119,7 +99,259 @@ Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 56.8 MB.
 System memory in use after: 56.9 MB.
 
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 2.131300 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.842100 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.261852 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09381c7363884edceb70a8ae141f7c0b') in 0.005354 seconds
+  Import took 0.007285 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 1.817100 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.070800 ms MarkObjects: 1.452000 ms  DeleteObjects: 0.032400 ms)
+Total: 1.966200 ms (FindLiveObjects: 0.332400 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.567100 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.582164 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174bb42737a50ed76f562cbf9c25c0ab') in 0.005245 seconds
+  Import took 0.007231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1570.
+Total: 1.861700 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.073500 ms MarkObjects: 1.516400 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.620622 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d03e5fb661cb8642e05f66a28505d3') in 0.005332 seconds
+  Import took 0.007776 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1573.
+Total: 1.655300 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.398600 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 1.934200 ms (FindLiveObjects: 0.210800 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.636100 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 602.305908 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d0423a723ba10a70fd388290a8e1b') in 0.005662 seconds
+  Import took 0.007888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001030 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 1.756100 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.523100 ms  DeleteObjects: 0.035200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 539.807599 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0960f582b7f688c4a6bd7b98eb624a89') in 0.005190 seconds
+  Import took 0.007166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.190767 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9850920ab6a9b99df6d70abd7c78cc8f') in 0.006063 seconds
+  Import took 0.010758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.587893 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd0259cdaa2aa894e842f1f84346079') in 0.007158 seconds
+  Import took 0.011478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.863793 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5690f50467cc3acc0e1d76de66debc') in 0.005536 seconds
+  Import took 0.007931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.687389 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8188e9e79c3d009a3e8f3c9fc53153c') in 0.005472 seconds
+  Import took 0.008353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.233521 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae507bc259bd7ae8fdac363c684fb03') in 0.004684 seconds
+  Import took 0.007256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.779607 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0160f7fc1771d0753e9d2855132148fc') in 0.006486 seconds
+  Import took 0.008968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.730004 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc70cc0ffd465eb17e1dfb5d2458387') in 0.006803 seconds
+  Import took 0.009230 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.869500 ms (FindLiveObjects: 0.197400 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.606700 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.485956 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ce8608b6e8c8cd5853835b1f4f0125') in 0.005539 seconds
+  Import took 0.008027 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 2.149100 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.753100 ms  DeleteObjects: 0.035800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.383778 seconds.
+  path: Assets/XPSystem.cs
+  artifactKey: Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XPSystem.cs using Guid(0fc5f560fb1fd194bb30a884d0c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935d08c3fbd4c0ecf281455c496e0e76') in 0.005333 seconds
+  Import took 0.007635 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
