@@ -53,9 +53,6 @@ public class XPSystem : MonoBehaviour
         }
 
 
-
-
-
         //when the "1" key is pressed on the numpad only Health will increase.
         if (Input.GetKeyDown(KeyCode.Keypad1))
         {
@@ -129,7 +126,7 @@ public class XPSystem : MonoBehaviour
         //reset current to 0
         curXP = 0;
         //increase reqXP
-        reqXP *= 1.2f;
+        reqXP *= 2.4f;
         Debug.Log("You're now Level " + level + "! Congrats!");
         IncreaseStats();
         

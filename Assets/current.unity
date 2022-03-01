@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 1946814439}
   - component: {fileID: 1946814438}
   - component: {fileID: 1946814441}
+  - component: {fileID: 1946814442}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -319,3 +320,24 @@ MonoBehaviour:
   defence: 6
   speed: 5
   attack: 2
+  earntXP: 2
+--- !u!114 &1946814442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946814437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc5f560fb1fd194bb30a884d0c9fb1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  curXP: 0
+  reqXP: 20
+  health: 10
+  defence: 6
+  speed: 5
+  attack: 2
+  earntXP: 2
